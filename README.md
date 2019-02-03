@@ -63,6 +63,7 @@ export interface Store {
 ### Installation
 The package provides a saga, a reducer, selectors and a single action to trigger an api state flow: 
 
+How it works?
 1. Saga catching the action
 2. Saga dispatches an action to update the loading flag for the provided key
 3. Saga executes the provided api call
