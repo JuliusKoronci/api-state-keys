@@ -1,0 +1,1 @@
+export { getApiResponse } from './getApiResponse';

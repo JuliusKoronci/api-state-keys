@@ -1,0 +1,63 @@
+{
+  "name": "api-state-keys",
+  "version": "0.1.0",
+  "description": "Small redux abstraction to handle api state changes in a managable and transparent manner decoupled from your domain logic. No more loading flags in your domain reducer.",
+  "main": "dist/index.js",
+  "author": "Julius Koronci<jk@web-solutions.sk>",
+  "license": "MIT",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "tsc -w",
+    "build": "yarn lint && tsc -d",
+    "lint": "tslint --project tsconfig.json",
+    "test": "jest",
+    "prepublish": "npm run build"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.13",
+    "@types/node": "^10.12.19",
+    "@types/ramda": "^0.25.47",
+    "jest": "^24.0.0",
+    "ts-jest": "^23.10.5",
+    "tslint": "^5.12.1",
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.2.4",
+    "@types/enzyme": "^3.1.15",
+    "@types/enzyme-adapter-react-16": "^1.0.3",
+    "@types/redux-saga": "^0.10.5",
+    "@types/react": "^16.7.20",
+    "@types/react-dom": "^16.0.11",
+    "@types/react-redux": "^7.0.0",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.7.1",
+    "lint-staged": "^8.1.0",
+    "prettier": "^1.16.1",
+    "ts-essentials": "^1.0.2",
+    "tslint-config-prettier": "^1.17.0"
+  },
+  "dependencies": {
+    "ramda": "^0.26.1",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-redux": "^6.0.0",
+    "axios": "^0.18.0",
+    "redux-saga": "^1.0.0",
+    "reselect": "^4.0.0"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "testPathIgnorePatterns": [
+      "<rootDir>//dist/"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.ts",
+      "!dist/**/*.*",
+      "!src/**/index.ts"
+    ]
+  }
+}

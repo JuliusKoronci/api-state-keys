@@ -1,0 +1,1 @@
+{"version":3,"file":"ApiStateAction.d.ts","sourceRoot":"","sources":["../../src/types/ApiStateAction.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,MAAM,EAAE,MAAM,OAAO,CAAC;AAC/B,OAAO,EAAE,gBAAgB,EAAE,MAAM,mBAAmB,CAAC;AAErD,MAAM,WAAW,eAAgB,SAAQ,MAAM;IAC7C,OAAO,CAAC,EAAE,GAAG,CAAC;IACd,GAAG,EAAE,MAAM,CAAC;IACZ,MAAM,EAAE,gBAAgB,CAAC;CAC1B"}

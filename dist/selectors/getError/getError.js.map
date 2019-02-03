@@ -1,0 +1,1 @@
+{"version":3,"file":"getError.js","sourceRoot":"","sources":["../../../src/selectors/getError/getError.ts"],"names":[],"mappings":";;AAAA,+BAA+B;AAE/B,8DAA6D;AAEhD,QAAA,QAAQ,GAAG,UAAC,KAAe,IAAK,OAAA,UAAC,GAAW;IACvD,IAAM,QAAQ,GAAG,yCAAmB,CAAC,KAAK,CAAC,CAAC,GAAG,CAAC,CAAC;IAEjD,OAAO,cAAM,CAAC,IAAI,EAAE,aAAa,EAAE,QAAQ,CAAC,CAAC;AAC/C,CAAC,EAJ4C,CAI5C,CAAC"}

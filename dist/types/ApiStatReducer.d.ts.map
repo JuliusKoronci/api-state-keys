@@ -1,0 +1,1 @@
+{"version":3,"file":"ApiStatReducer.d.ts","sourceRoot":"","sources":["../../src/types/ApiStatReducer.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,MAAM,EAAE,MAAM,OAAO,CAAC;AAC/B,OAAO,EAAE,QAAQ,EAAE,MAAM,YAAY,CAAC;AAEtC,oBAAY,cAAc,GAAG,CAAC,KAAK,EAAE,QAAQ,CAAC,UAAU,CAAC,EAAE,MAAM,EAAE,MAAM,KAAK,QAAQ,CAAC,UAAU,CAAC,CAAA"}
