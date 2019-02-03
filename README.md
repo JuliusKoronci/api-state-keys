@@ -47,13 +47,15 @@ lot of useful helpers which would not be possible otherwise.
 
 ``` 
 export interface Store {
-  [key:string]: {
-    loading: boolean;
-    loaded: boolean;
-    error: boolean;
-    errorObject: IApiError | null;
-    payload: any;
-  };
+  ApiState: {
+      [key:string]: {
+        loading: boolean;
+        loaded: boolean;
+        error: boolean;
+        errorObject: IApiError | null;
+        payload: any;
+      },
+  },
 ...
 }
 ```
