@@ -135,7 +135,7 @@ business logic. Our feature can just export this selector and it can be reused w
 The basic approach replaces with every request the entire payload in our store. What if we want to append the new data 
 instead of replacing?
 
-The apiStartAction accepts a 3rd argument.
+The apiStartAction accepts a config as the 3rd argument.
 ``` 
 export interface IApiActionConfig {
   action?: (response: any) => Action;
